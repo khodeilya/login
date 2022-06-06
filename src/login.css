@@ -1,0 +1,90 @@
+@font-face {
+  font-family: ilya;
+  src: url(./fonts/IRANSansWeb_Black.ttf);
+}
+
+.fullpage {
+  background: url(./images/login.png);
+  height: 100vh;
+
+  background-color: rgb(252, 246, 246);
+  background-size: cover;
+  margin: -8px;
+}
+.loginbox {
+  width: 500px;
+  height: 520px;
+  background-color: white;
+  margin: 6% 32%;
+  border-radius: 20px;
+  position: absolute;
+}
+.loginbox h1 {
+  font-family: ilya;
+  font-size: 30px;
+  color: #707070;
+}
+.loginbox h1,
+.loginbox h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.loginform {
+  direction: rtl;
+  margin: -2px 95%;
+}
+.loginform input[type="text"],
+.loginform input[type="password"] {
+  text-align: right;
+  font-size: 17px;
+  padding: 7px;
+  direction: rtl;
+  width: 450px;
+  height: 25px;
+  background: currentColor;
+  box-shadow: 0px 8px 32px rgb(159 189 220 / 20%);
+  border-radius: 5px;
+  background: transparent;
+  border-color: rgb(244, 255, 255);
+  outline: none;
+  border-width: 1px;
+  border: 1px solid rgb(188, 202, 202);
+  background-color: rgb(244, 255, 255);
+  position: relative;
+}
+.loginform input[type="submit"] {
+  font-family: ilya;
+  width: 69vh;
+  height: 40px;
+  margin: 30px -1px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: medium;
+}
+p {
+  width: 100px;
+  padding: 2px;
+}
+.link {
+  position: absolute;
+  text-align: center;
+  margin: 5px 130px;
+  vertical-align: baseline;
+}
+.loginform a {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1px;
+
+  color: black;
+  text-decoration: none;
+}
+#sm {
+  vertical-align: auto;
+  font-size: small;
+}
+#md {
+  font-size: medium;
+}
